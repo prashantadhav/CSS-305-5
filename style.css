@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    border: 2px solid red;
+    display: flex;
+    background-color: rgb(178, 243, 221);
+}
+
+.leftmain{
+    /* border: 2px solid black; */
+    width: 25%;
+    height: 100%;
+    background-color: rgb(217, 251, 239);
+    border-radius: 35px;
+    
+}
+.leftmain .account{
+    /* border: 2px solid red; */
+    height: 25vh;
+    /* padding: 1rem 1rem; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    font-weight: 500;
+    color: rgb(0, 60, 60);
+}
+.leftmain .account img{
+    width: 60px;
+}
+.leftmain .account h4{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+.leftmain .account:hover{
+    cursor: pointer;
+    color: gray;
+}
+
+.leftmain .menu{
+    /* border: 2px solid blue; */
+    height: 50vh;
+}
+.leftmain .menu ul{
+    /* border: 2px solid black; */
+    list-style-type: none;
+    
+    
+}
+.leftmain .menu li{
+    /* border: 2px solid blue; */
+    display: flex;
+    /* justify-content: space-around; */
+    align-items: center;
+    margin-left: 70px;
+    border-radius: 10px;
+    margin-top: 25px;
+    
+    
+}
+.leftmain .menu img{
+    width: 30%;
+   
+}
+.leftmain .menu ul li:hover{
+    cursor: pointer;
+    color: darkgrey;
+}
+.leftmain .bottombutton{
+    border: 4px solid rgb(0, 255, 153);
+    height: 20vh ;
+    background-color:rgb(178, 243, 221) ;
+    border-radius: 15px;
+    
+}
+.leftmain .bottombutton ul{
+   list-style-type: none;
+}
+.leftmain .bottombutton li{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.leftmain .bottombutton img{
+    width: 90px;
+}
+.leftmain .bottombutton ul li:hover{
+    cursor: pointer;
+    /* background-color: darkgray; */
+    color: white;
+}
+
+.rightmain{
+    /* border: 2px solid blue; */
+    width: 75%;
+    height: 100%;
+    background-color: rgb(178, 243, 221);
+    display: flex;
+    flex-direction: column;
+}
+
+
+.rightmain .div1{
+    /* border: 2px solid red; */
+    height: 25%;
+}
+.rightmain .div1 .title{
+padding: 3rem 3rem;
+}
+.rightmain .div1 h1{
+    color: rgb(92, 88, 88);
+    font-weight: 900;
+    
+    
+}
+.rightmain .div1 .line{
+    /* border: 2px solid red; */
+    width: 250px;
+    height: 20px;
+    background-color:rgb(239, 229, 229) ;
+    border-radius: 10px;
+}
+
+.rightmain .div2{
+    /* border: 2px solid blue; */
+    height: 25%;
+   
+}
+.rightmain .div2 .div2box{
+    /* border: 2px solid red; */
+    height: 90px;
+    width: 700px;
+    margin-top: 30px;
+    margin-left: 50px;
+    /* margin-right: 90px; */
+    background: rgb(217, 251, 239);
+    border-radius: 15px;
+    display: flex;
+    
+}
+.rightmain .div2 .div2box .part1{
+    /* border: 2px solid blue; */
+    width: 25%;
+}
+.rightmain .div2 .div2box .part1 img{
+    width: 70px;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+.rightmain .div2 .div2box .part2{
+    /* border: 2px solid blue; */
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.rightmain .div2 .div2box .part2 ,h2,h5{
+    color: rgb(85, 85, 85);
+}
+.rightmain .div2 .div2box .part3{
+    /* border: 2px solid blue; */
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rightmain .div2 .div2box .part3 h4{
+    color:rgb(85, 85, 85) ;
+}
+
+
+
